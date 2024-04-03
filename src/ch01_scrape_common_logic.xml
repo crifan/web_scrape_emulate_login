@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE chapter [
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" "http://www.crifan.com/files/res/docbook/entity/crl.ent">
+%crl_ent;
+
+]>
+
+<chapter    xml:id="ch01_scrape_common_logic"
+        xmlns="http://docbook.org/ns/docbook"
+        xmlns:xl="http://www.w3.org/1999/xlink"
+        xmlns:xi="http://www.w3.org/2001/XInclude"
+        xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+        xmlns:ns4="http://www.w3.org/1999/xhtml"
+        xmlns:ns3="http://www.w3.org/2000/svg"
+        xmlns:ns="http://docbook.org/ns/docbook">
+<title>网站抓取，模拟登陆，抓取动态网页的通用逻辑</title>
+
+<tip xml:id="tip.scrape_common_logic"><title>相关旧帖</title>
+    <para><link xl:href="http://www.crifan.com/how_to_use_some_language_python_csharp_to_implement_crawl_website_extract_dynamic_webpage_content_emulate_login_website">如何用Python，C#等语言去实现抓取静态网页+抓取动态网页+模拟登陆网站</link></para>
+    <para><link xl:href="http://www.crifan.com/summary_webbrowser_developer_tool_ie9_f12_chrome_ctrl_shift_j_firefox_firebug">【整理】各种浏览器中的开发人员工具Developer Tools：IE9的F12，Chrome的Ctrl+Shift+J，Firefox的Firebug</link></para>
+    <para><link xl:href="http://www.crifan.com/browser_developer_tool_chrome_vs_ie9">【总结】浏览器中的开发人员工具（IE9的F12和Chrome的Ctrl+Shift+I）-网页分析的利器</link></para>
+    <para><link xl:href="http://www.crifan.com/summary_about_flow_process_of_fetch_webpage_simulate_login_website_and_some_notice">【整理】关于抓取网页，分析网页内容，模拟登陆网站的逻辑/流程和注意事项</link></para>
+    <para><link xl:href="http://www.crifan.com/use_ie9_f12_to_analysis_the_root_source_of_values_of_parameter_cookie">【教程】如何利用IE9的F12去分析网站登陆过程中的复杂的（参数，cookie等）值（的来源）</link></para>
+    <para><link xl:href="http://www.crifan.com/summary_url_encode_and_decode_during_http_get_post_request">【整理】关于http(GET或POST)请求中的url地址的编码(encode)和解码(decode)</link></para>
+
+    <para><link xl:href="http://www.crifan.com/summary_explain_what_is_html_charset_and_common_value_of_gb2312_gbk_utf_8_iso8859_1">【整理】关于HTML网页源码的字符编码（charset）格式（GB2312，GBK，UTF-8，ISO8859-1等）的解释</link></para>
+    <para><link xl:href="http://www.crifan.com/website_crawl_process_related_headers_cookies_post_data_handle_logic">【整理】网页抓取，模拟登陆，抓取动态网页内容等过程中，所涉及的Headers信息，Cookie信息，POST数据的处理逻辑</link></para>
+    <para><link xl:href="http://www.crifan.com/for_process_html_with_many_tag_recommend_use_third_lib_while_simple_html_use_regular_expression">【整理】关于用正则表达式处理html代码方面的建议</link></para>
+</tip>
+
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+</chapter>

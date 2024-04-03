@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE book
+[
+
+<!ENTITY cur_book_name      "web_scrape_emulate_login" >
+<!ENTITY publish_date       "2013-09-22" >
+<!ENTITY release_version    "1.1" >
+
+<!ENTITY copyrith_year "2013" >
+<!ENTITY entity_common_multi_format     SYSTEM  "../../entity_common_multi_format.xml">
+<!ENTITY entity_common_publish_info     SYSTEM  "../../entity_common_publish_info.xml">
+]>
+
+<book version="5.0"
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:lang="zh_CN">
+<info>
+    <title>详解抓取网站，模拟登陆，抓取动态网页的原理和实现（Python，C#等）</title>
+    <subtitle></subtitle>
+    <keywordset>
+        <keyword>抓取网站</keyword>
+        <keyword>模拟登陆</keyword>
+        <keyword>抓取动态网页</keyword>
+        <keyword>Python</keyword>
+        <keyword>C#</keyword>
+    </keywordset>
+
+    <abstract>
+        <para>本文主要介绍了抓取网站，模拟登陆，抓取动态网页相关的逻辑，原理和如何实现。</para>
+        <para>主要包括：
+            <itemizedlist>
+                <listitem>抓取网页，模拟登陆等背后的通用的逻辑和原理</listitem>
+                <listitem>以提取songtaste网页中标题为例，详解如何抓取网站并提取网页内容</listitem>
+                <listitem>以模拟登陆百度为例，详解如何模拟登陆网站</listitem>
+                <listitem>以抓取网易博客帖子中的最近读者信息为例，详解如何抓取动态网页中的内容</listitem>
+                <listitem>详解了在模拟登陆和抓取动态网页过程中，如何用对应的网页分析工具，如IE9的F12，Chrome的Ctrl+Shift+J，Firefox的Firebug，去分析出对应的逻辑</listitem>
+                <listitem>针对抓取网站，模拟登陆，抓取动态网页，全部给出了完整的可用的，多种语言的示例代码：Python，C#，Java，Go等</listitem>
+            </itemizedlist>
+        </para>
+        &entity_common_multi_format;
+    </abstract>
+
+    <revhistory>
+        <revision>
+            <revnumber>&release_version;</revnumber>
+            <date>&publish_date;</date>
+            <revremark>
+                <orderedlist>
+                    <listitem>把之前教程的地址整理过来</listitem>
+                    <listitem>添加新帖子的链接：模拟登陆百度的java版，go语言版</listitem>
+                </orderedlist>
+            </revremark>
+            <authorinitials>crl</authorinitials>
+        </revision>
+    </revhistory>
+
+    &entity_common_publish_info;
+</info>
+
+<xi:include href="preface.xml" />
+<xi:include href="ch01_scrape_common_logic.xml" />
+<xi:include href="ch02_scrape_static_website.xml" />
+<xi:include href="ch03_emulate_login.xml" />
+<xi:include href="ch04_scrape_dynamic_website.xml" />
+<xi:include href="ch05_summary_and_note.xml" />
+<xi:include href="reference.xml" />
+
+</book>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE chapter [
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" "http://www.crifan.com/files/res/docbook/entity/crl.ent">
+%crl_ent;
+
+]>
+
+<chapter    xml:id="ch04_scrape_dynamic_website"
+        xmlns="http://docbook.org/ns/docbook"
+        xmlns:xl="http://www.w3.org/1999/xlink"
+        xmlns:xi="http://www.w3.org/2001/XInclude"
+        xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+        xmlns:ns4="http://www.w3.org/1999/xhtml"
+        xmlns:ns3="http://www.w3.org/2000/svg"
+        xmlns:ns="http://docbook.org/ns/docbook">
+<title>如何抓取动态网页并提取特定内容</title>
+
+<para>先去看看：</para>
+<para><link xl:href="http://www.crifan.com/how_to_crawl_dynamic_webpage_content">【教程】如何抓取动态网页内容</link></para>
+<para>搞懂，抓取动态网页的逻辑。</para>
+<para></para>
+<para>再去看下面的例子：</para>
+<para></para>
+<para></para>
+<para></para>
+<sect1 xml:id="dynamic_site_netease_feelingcard"><title>抓取动态网页示例：网易163博客的心情随笔FeelingCard</title>
+    <para><link xl:href="http://www.crifan.com/blogstowordpress_add_feeling_card_for_163_netease_blog/">【记录】给BlogsToWordPress添加支持导出网易的心情随笔</link></para>
+    <para><link xl:href="http://www.crifan.com/example_to_crawl_dynamic_webpage_content_of_recent_reader_info_for_netease_blog_post">【教程】以抓取网易博客帖子中的最近读者信息为例，手把手教你如何抓取动态网页中的内容</link></para>
+    <para><link xl:href="http://www.crifan.com/parse_netease_163_post_emotion_feelingcard_dwr_reply_data/">【记录】用Python解析网易163博客的心情随笔FeelingCard返回的DWR-REPLY数据</link></para>
+    <para></para>
+    <para></para>
+</sect1>
+
+<para></para>
+<para></para>
+
+</chapter>

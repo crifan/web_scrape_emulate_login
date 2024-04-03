@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE chapter [
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" "http://www.crifan.com/files/res/docbook/entity/crl.ent">
+%crl_ent;
+
+]>
+
+<chapter    xml:id="ch03_emulate_login"
+        xmlns="http://docbook.org/ns/docbook"
+        xmlns:xl="http://www.w3.org/1999/xlink"
+        xmlns:xi="http://www.w3.org/2001/XInclude"
+        xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+        xmlns:ns4="http://www.w3.org/1999/xhtml"
+        xmlns:ns3="http://www.w3.org/2000/svg"
+        xmlns:ns="http://docbook.org/ns/docbook">
+<title>如何模拟登陆网站</title>
+<para></para>
+<para>下面，给出足够多的例子：</para>
+<para></para>
+<sect1 xml:id="emulate_login_baidu"><title>（多种语言实现）模拟登陆百度</title>
+    <para>先去用工具分析逻辑：</para>
+    <para><link xl:href="http://www.crifan.com/use_ie9_f12_to_analysis_the_internal_logical_process_of_login_baidu_main_page_website">【教程】手把手教你如何利用工具(IE9的F12)去分析模拟登陆网站(百度首页)的内部逻辑过程</link></para>
+    <para>再去用代码实现，此处，目前已经实现了：</para>
+    <itemizedlist>
+        <listitem>C#版
+            <para><link xl:href="http://www.crifan.com/emulate_login_website_using_csharp/">【教程】模拟登陆网站 之 C#版（内含两种版本的完整的可运行的代码）</link></para>
+            <para></para>
+            <para></para>
+        </listitem>
+        <listitem>Python版
+            <para><link xl:href="http://www.crifan.com/emulate_login_website_using_python/">【教程】模拟登陆网站 之 Python版（内含两种版本的完整的可运行的代码）</link></para>
+            <para></para>
+            <para></para>
+        </listitem>
+        <listitem>Java版
+            <para><link xl:href="http://www.crifan.com/emulate_login_baidu_use_java_code/">【教程】模拟登陆百度之Java代码版</link></para>
+            <para></para>
+            <para></para>
+        </listitem>
+        <listitem>Go语言版
+            <para><link xl:href="http://www.crifan.com/emulate_login_baidu_using_go_language/">【记录】用go语言实现模拟登陆百度</link></para>
+            <para></para>
+            <para></para>
+        </listitem>
+    </itemizedlist>
+    <para></para>
+</sect1>
+
+<sect1 xml:id="emulate_login_google"><title>（多种语言实现）模拟登陆gogole</title>
+    <para></para>
+    <para>另外，也弄了个，模拟登陆google：</para>
+    <para><link xl:href="http://www.crifan.com/analysis_process_of_emulate_login_google/">【记录】模拟登陆google</link></para>
+    <para></para>
+</sect1>
+
+<para></para>
+<para></para>
+
+</chapter>
